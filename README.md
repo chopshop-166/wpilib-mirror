@@ -9,6 +9,15 @@ Because the code is now located on [GitHub][], as well as available
 [via Maven][Maven], this repository is being replaced with instructions on
 setting up a repository to pull the dependencies from [Maven][].
 
+For backward-compatibility's sake, the old files are still accessible via tag,
+but their usage is discouraged.
+For any continued support, the appropriate version of WPILib should be used.
+The Maven releases only support 2016 (named `wpilibJavaFinal`) and 2017 (named
+`athena`) versions of the library.
+
+As of 2017, this repository will not receive any WPILib updates directly,
+but *might* update the latest version number.
+
 About
 -----
 
