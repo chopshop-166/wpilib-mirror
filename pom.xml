@@ -19,17 +19,17 @@
     <sourceDirectory>
       src/
     </sourceDirectory>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.3</version>
-          <configuration>
-            <source>8</source>
-			<target>8</target>
-          </configuration>
-        </plugin>
-      </plugins>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.3</version>
+        <configuration>
+          <source>8</source>
+          <target>8</target>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 
   <repositories>
@@ -43,7 +43,7 @@
     <dependency>
       <groupId>edu.wpi.first.wpilibj</groupId>
       <artifactId>athena</artifactId>
-      <version>2017.1.1</version>
+      <version>2017.2.1</version>
     </dependency>
   </dependencies>
 </project>
